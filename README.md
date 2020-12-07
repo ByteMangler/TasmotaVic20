@@ -1,5 +1,7 @@
-#Welcome to my little project that adds a bit of retro flavour to a smart light bulb!
+# Welcome to my little project that adds a bit of retro flavour to a smart light bulb!
 
+Apart from my hacking of the Tasmota and cpu.ino files, about the only file I can lay claim to is the code in iec_func.c 
+which is MIT licensed.
 
 This relies on the Tasmota project. Follow the Tasmota guides to downloading and building the Tasmota project.
 Then you should be able to paste these files into the tasmota folder.
@@ -18,7 +20,7 @@ board_build.filesystem = littlefs
 
 ## After you've built the code, loaded it onto a device and set up Tasmota to connect to a wifi access point.
 
-##What does this do?
+## What does this do?
 
 Firstly, we have a 6502 emulator done by 'mikeroolz' that was posted on the Arduino forum back on 2013. I can only assume
 mikeroolz was happy for it to be public domain. If you're mikeroolz, apart from thanks for a great piece of code, you might 
