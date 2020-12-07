@@ -26,7 +26,7 @@ Firstly, we have a 6502 emulator done by 'mikeroolz' that was posted on the Ardu
 mikeroolz was happy for it to be public domain. If you're mikeroolz, apart from thanks for a great piece of code, you might 
 want to inform me what license you'd like associated with it.
 
-We than add the roms of the legendary VIC20.This gives use the KERNAL and basic. I've then put some traps in the 6502 emulator to 
+We than add the roms of the legendary VIC20.This gives us KERNAL and basic. I've then put some traps in the 6502 emulator to 
 fudge up an emulation of the iec port so I can do disk and a device to talk to the Tasmota command line.
 
 Creates a tcp socket at port 8880. You can use Telnet to connect to this.
