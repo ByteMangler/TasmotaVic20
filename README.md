@@ -45,7 +45,7 @@ OPEN 1,4,5                  opens file #1 to device 4
 PRINT#1,"POWER ON"          send the POWER ON command to Tasmota (should turn the light on)
 PRINT#1,"COLOR 6"           changes the color to #6. you have a choice of 1..12
 
-refer to the TASMOTA docs as to what commands you have available and the VIC20 docs for how to tun the basic.
+refer to the TASMOTA docs as to what commands you have available and the VIC20 docs for how to use the basic.
 The STOP key is ctrl-g.
 
 Alas there is no graphics or sound that the real VIC20 had - a bit hard to map that hardware onto a lightbulb :(
